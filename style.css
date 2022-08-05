@@ -3,7 +3,6 @@ body {
 }
 .tg-0pky .add{
   display:flex;
-  justify-content: center;
 }
 .container {
   position: relative;
@@ -25,6 +24,7 @@ body {
 }
 .tg{
   border: 5px solid #000;
+
 }
 section{
   margin-top: 10px;
