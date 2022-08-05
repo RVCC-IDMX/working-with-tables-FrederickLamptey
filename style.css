@@ -3,5 +3,38 @@ body {
 }
 .tg-0pky .add{
   display:flex;
+  justify-content: center;
 }
+.container {
+  position: relative;
+  text-align: center;
+}
+.left{
+  position: absolute;
+  bottom: 700px;
+  left: 50px;
+  font-family: "Alfa Slab One";
+  font-size: 500%;
+}
+.right{
+  position: absolute;
+  top: 5px;
+  right: 50px;
+  font-family: "Alfa Slab One";
+  font-size: 250%;
+}
+.tg{
+  border: 5px solid #000;
+}
+section{
+  margin-top: 10px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+section figcaption{
+  font-family: "Alfa Slab One";
+  font-size: 100%;
+}
+
 
